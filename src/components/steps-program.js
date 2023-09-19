@@ -51,6 +51,9 @@ const StepProgram = () => {
             "Embarking on a mission to unlock the secrets hidden within your DNA, GenoPalate has revolutionized the way people approach their health and nutrition. By analyzing your genetic profile, we provide you with a comprehensive understanding of how your body responds to different foods, empowering you to make informed choices tailored to your unique genetic makeup."
           }
         />
+        <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]">
+        Get Started
+      </button>
       </div>
       
       <div className="w-full bg-[#D5EDF7] ">
@@ -63,6 +66,9 @@ const StepProgram = () => {
                 "Unlock your unique nutritional needs with personalized vitamins. Our advanced genetic testing and algorithm create a tailored blend of vitamins and minerals based on your DNA, age, gender, and diet. Take control of your well-being and embark on a transformative journey towards a healthier life."
               }
             />
+            <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]">
+        Learn More
+      </button>
           </div>
         </div>
       </div>
@@ -80,6 +86,9 @@ const StepProgram = () => {
             "Embarking on a mission to unlock the secrets hidden within your DNA, GenoPalate has revolutionized the way people approach their health and nutrition. By analyzing your genetic profile, we provide you with a comprehensive understanding of how your body responds to different foods, empowering you to make informed choices tailored to your unique genetic makeup."
           }
         />
+        <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]">
+        Learn More
+      </button>
       </div>
 
       <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around">
