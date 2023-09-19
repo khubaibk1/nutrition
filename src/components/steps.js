@@ -42,5 +42,3 @@ const Steps = ({ stepNo, heading, detail }) => {
   );
 };
 export default Steps;
-
-// chawal here
