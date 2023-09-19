@@ -7,8 +7,8 @@ const Section = () => {
 
       <div className=" sm:h-[644px] sm:w-full bg-contain w-[521px]  h-[544px] absolute inset-0 bg-right  bg-[url('/images/green-leaves-organic-png-file-hd.png')] bg-no-repeat  "></div>
 
-      <div className="flex sm:flex-row  flex-col">
-        <div className="text-black sm:pl-[100px] pl-[70px] sm:pt-[175px] pt-[70px] ">
+      <div className="flex sm:flex-row  flex-col ">
+        <div className="text-black sm:pl-[100px] pl-[70px] sm:pt-[175px] pt-[70px] z-10">
           <h1 className="sm:text-[64px] text-[28px] font-[700] text-[#146356] leading-[33px]    sm:mb-[45px] mb-[6px]">
             Unlock Your Health
           </h1>
@@ -21,7 +21,9 @@ const Section = () => {
             Personalized nutrition powered by your DNA
           </p>
 
-          <button className="btn bg-[#FF7F3F] text-white">Get Started</button>
+          <button className="btn bg-[#FF7F3F] text-white border-[#FF7F3F]  active:bg-[#993636]  active:border-[#993636]">
+            Get Started
+            </button>
         </div>
         <div className="z-10 sm:mt-[120px] mt-[56px] ml-[88px]  sm:w-[512px] sm:h-[563] w-[180px]">
           <Image src={box} alt="Picture of the author" />

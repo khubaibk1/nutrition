@@ -18,7 +18,7 @@
     @apply text-[#146356] sm:text-[40px] sm:font-[700] text-[20px] font-[600];
   }
   .smallHeading {
-    @apply text-[#146356] sm:text-[18px] font-[500] text-[14px];
+    @apply text-[#146356] sm:text-[18px] font-[630] text-[14px];
   }
 }
 

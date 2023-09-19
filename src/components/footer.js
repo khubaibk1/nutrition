@@ -2,11 +2,11 @@ const Footer = () => {
   return (
     <>
       <div className="w-full   bg-[url('/images/footer-leaves-right.png')] bg-no-repeat h-[253px] bg-right-bottom sm:p-[0] p-[10px] overflow-hidden">
-        <div className="bg-[url('/images/footer-leaves.png')] bg-no-repeat h-[253px] bg-left-bottom ">
-          <div className="w-full h-[253px] flex flex-col justify-around ">
+        <div className="bg-[url('/images/footer-leaves.png')] bg-no-repeat h-[253px] bg-left-bottom flex justify-center">
+          <div className="w-[90%] h-[253px] flex flex-col justify-around ">
             <div className="flex flex-row items-center justify-around ">
               <div className="w-[377px] h-[122px]">
-                <div className="sm:text-[36px] text-[20px] font-[700] text-[#FF7F3F] mb-[10px]">
+                <div className="sm:text-[36px] text-[20px] font-[700] text-[#FF7F3F] pb-0">
                   Logo
                 </div>
                 <p className="sm:text-[16px] text-[9px] sm:w-[280px] w-[70px]">

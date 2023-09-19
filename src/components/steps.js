@@ -22,7 +22,6 @@ const Steps = ({ stepNo, heading, detail }) => {
       <button className="stepbtn ">{stepNo}</button>
       <h1 className="heading sm:mt-[5px] mt-[20px]">{heading}</h1>
       <p>{detail}</p>
-      
       <style jsx>{`
         .step-container {
           width: 100%;

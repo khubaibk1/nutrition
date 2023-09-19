@@ -10,8 +10,8 @@ const Header = () => {
 
   return (
     <nav className="w-full h-[130px] ">
-      <div className="w-full h-[50px] flex flex-row justify-center items-center">
-        <div className="w-[95%] h-[50px]  text-[8px] font-[400] flex justify-center py-[16px] sm  sm:text-[16px] ">
+      <div className="w-full h-[50px] flex flex-row justify-center items-center p-0 m-0">
+        <div className="w-[95%] h-[50px]  text-[8px] font-[500] flex justify-center py-[16px] sm  sm:text-[16px] ">
           <p>
             Join the waitlist 🚨 Personalized Protein & Fiber Powder Supplements
             coming soon →
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="h-[80px] flex flex-row items-center sm:justify-around justify-between bg-[#146356] text-white">
+      <div className="h-[78px] flex flex-row items-center sm:justify-around justify-between bg-[#146356] text-white ">
         <div className="text-[20px] sm:text-[40px] font-[800] sm:ml-[0] ml-[10px] ">
           Logo
         </div>
@@ -31,16 +31,18 @@ const Header = () => {
         </div>
 
         <div className="hidden sm:flex  ">
-          <ul className="flex flex-row text-[6px] sm:text-[16px] font-[400] justify-around sm:w-[753px] pl-[70px] w-[100px] items-center mr-[30px]">
+          <div className="flex items-center mr-[40px]">
+          <ul className="flex flex-row text-[6px] sm:text-[16px] font-[400] justify-around sm:w-[883px] pl-[70px]  w-[100px] ">
             <li>DNA Nutrition Analysis</li>
-            <li>Personalized Vitamins & Supplements</li>
-            <li>Dietitian</li>
+            <li> Personalized Vitamins & Supplements</li>
+            <li>Dietitian Coaching</li>
             <li>Our Science</li>
           </ul>
+        </div>
 
           <div>
-            <button className="btn">Log In</button>
-            <button className="btn bg-[#FF7F3F] ml-[18px] border-[#FF7F3F]">
+            <button className="btn  active:bg-[#993636]  active:border-[#993636]">Log In</button>
+            <button className="btn bg-[#FF7F3F] ml-[18px] border-[#FF7F3F]  active:bg-[#993636]  active:border-[#993636]">
               Register
             </button>
           </div>
@@ -48,19 +50,19 @@ const Header = () => {
       </div>
 
       {isMobileNavOpen && (
-        <div className="sm:hidden relative  left-0 right-0 h-[210px] z-50 bg-[#146356]">
-          <div className="sm:hidden h-[150px]">
-            <ul className=" text-white p-4 text-[12px]">
-              <li>DNA Nutrition Analysis</li>
-              <li>Personalized Vitamins & Supplements</li>
-              <li>Dietitian</li>
+        <div className="sm:hidden relative  h-[240px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0">
+          <div className="sm:hidden h-[210px] ">
+            <ul className=" text-white p-4 text-[12px]  flex flex-col  items-center text-left justify-center">
+              <li className="mb-[6px]">DNA Nutrition Analysis</li>
+              <li className="mb-[6px]">Personalized Vitamins & Supplements</li>
+              <li className="mb-[6px]">Dietitian Coaching</li>
               <li>Our Science</li>
             </ul>
             <div className="text-center p-4">
-              <button className="btn  bg-[#FF7F3F] ml-[18px] border-[#FF7F3F]">
+              <button className="btn  bg-[#FF7F3F] ml-[18px] border-[#FF7F3F]  active:bg-[#993636]  active:border-[#993636] text-white">
                 Log In
               </button>
-              <button className="btn bg-[#FF7F3F] ml-[18px] border-[#FF7F3F]">
+              <button className="btn bg-[#FF7F3F] ml-[18px] border-[#FF7F3F]  active:bg-[#993636]  active:border-[#993636] text-white">
                 Register
               </button>
             </div>
