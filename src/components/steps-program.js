@@ -134,7 +134,7 @@ const StepProgram = () => {
         </div>
       </div>
 
-      <div className="w-full sm:h-[153px] h-[100px] bg-[#146356] flex sm:flex-row flex-col items-center sm:justify-between justify-around sm:px-[90px] px-[0]">
+      <div className="w-full sm:h-[153px] h-[110px] bg-[#146356] flex sm:flex-row flex-col items-center sm:justify-between justify-around sm:px-[90px] px-[0]">
         <h1 className="text-white sm:text-[24px] text-[18px] font-[500] ">
           Take the first step to a healthier you.
         </h1>
