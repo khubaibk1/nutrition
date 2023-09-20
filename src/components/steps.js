@@ -1,4 +1,4 @@
-"use client"
+"use client";
 const Steps = ({ stepNo, heading, detail }) => {
   let containerStyle = {};
 
@@ -18,23 +18,23 @@ const Steps = ({ stepNo, heading, detail }) => {
 
   return (
     <div className="flex justify-center items-center">
-    <div className="step-container mt-[20px] " style={containerStyle}>
-      <button className="stepbtn ">{stepNo}</button>
-      <h1 className="heading sm:mt-[5px] mt-[20px]">{heading}</h1>
-      <p>{detail}</p>
-      <style jsx>{`
-        .step-container {
-          width: 100%;
-          max-width: 326px;
-          @media (min-width: 768px) {
-            max-width: 274px;
+      <div className="step-container mt-[20px] " style={containerStyle}>
+        <button className="stepbtn ">{stepNo}</button>
+        <h1 className="heading sm:mt-[5px] mt-[20px]">{heading}</h1>
+        <p>{detail}</p>
+        <style jsx>{`
+          .step-container {
+            width: 100%;
+            max-width: 326px;
+            @media (min-width: 768px) {
+              max-width: 274px;
+            }
+            @media (min-width: 1024px) {
+              max-width: 674px;
+            }
           }
-          @media (min-width: 1024px) {
-            max-width: 674px;
-          }
-        }        
-      `}</style>
-    </div>
+        `}</style>
+      </div>
     </div>
   );
 };

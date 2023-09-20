@@ -45,75 +45,71 @@ const StepProgram = () => {
         </div>
         <div className="flex justify-center items-center sm:mb-0 mb-[40px]">
           <div>
-          <Steps
-          stepNo={"Step 1"}
-          heading={"Essential Nutrition Report"}
-          detail={
-            "Embarking on a mission to unlock the secrets hidden within your DNA, GenoPalate has revolutionized the way people approach their health and nutrition. By analyzing your genetic profile, we provide you with a comprehensive understanding of how your body responds to different foods, empowering you to make informed choices tailored to your unique genetic makeup."
-          }
-        />
-        <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]  active:bg-[#993636] active:border-[#993636]">
-        Get Started
-      </button>
+            <Steps
+              stepNo={"Step 1"}
+              heading={"Essential Nutrition Report"}
+              detail={
+                "Embarking on a mission to unlock the secrets hidden within your DNA, GenoPalate has revolutionized the way people approach their health and nutrition. By analyzing your genetic profile, we provide you with a comprehensive understanding of how your body responds to different foods, empowering you to make informed choices tailored to your unique genetic makeup."
+              }
+            />
+            <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]  active:bg-[#993636] active:border-[#993636]">
+              Get Started
+            </button>
           </div>
-        
         </div>
         <div className="sm:hidden visible">
-        <Image src={s1} />
+          <Image src={s1} />
         </div>
       </div>
-      
+
       <div className="w-full bg-[#D5EDF7] ">
         <div className="w-full bg-[url('/images/Rectangle8.png')] bg-no-repeat bg-contain sm:bg-right bg-bottom  ">
           <div className=" sm:h-[545px] h-[520px] sm:justify-normal justify-center  flex sm:items-center sm:pl-[100px]">
             <div>
-            <Steps
-              stepNo={"Step 2"}
-              heading={"Personalized Vitamins"}
-              detail={
-                "Unlock your unique nutritional needs with personalized vitamins. Our advanced genetic testing and algorithm create a tailored blend of vitamins and minerals based on your DNA, age, gender, and diet. Take control of your well-being and embark on a transformative journey towards a healthier life."
-              }
-            />
-            <button className="btn bg-[#FF7F3F] text-white mt-[20px]  border-[#FF7F3F]  active:bg-[#993636] active:border-[#993636]">
-            Learn More
-            </button>
+              <Steps
+                stepNo={"Step 2"}
+                heading={"Personalized Vitamins"}
+                detail={
+                  "Unlock your unique nutritional needs with personalized vitamins. Our advanced genetic testing and algorithm create a tailored blend of vitamins and minerals based on your DNA, age, gender, and diet. Take control of your well-being and embark on a transformative journey towards a healthier life."
+                }
+              />
+              <button className="btn bg-[#FF7F3F] text-white mt-[20px]  border-[#FF7F3F]  active:bg-[#993636] active:border-[#993636]">
+                Learn More
+              </button>
             </div>
-            
           </div>
         </div>
       </div>
-      
-              
+
       <div className="flex sm:flex-row flex-col sm:items-center sm:justify-center my-[80px] ">
         <div className={`sm:visible  setimage sm:mr-[33px] mr-[0]`}>
           <Image src={s2} />
         </div>
-        <div  className="flex justify-center items-center sm:mb-0 mb-[40px]">
-        <div>
-        <Steps
-          stepNo={"Step 3"}
-          heading={"Dietitian Coaching"}
-          detail={
-            "Unlock your unique nutritional needs with personalized vitamins. Our advanced genetic testing and algorithm create a tailored blend of vitamins and minerals based on your DNA, age, gender, and diet. Take control of your well-being and embark on a transformative journey towards a healthier life."
-          }
-        />
-        <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]  active:bg-[#993636] active:border-[#993636]">
-        Learn More
-      </button>
-        </div>
+        <div className="flex justify-center items-center sm:mb-0 mb-[40px]">
+          <div>
+            <Steps
+              stepNo={"Step 3"}
+              heading={"Dietitian Coaching"}
+              detail={
+                "Unlock your unique nutritional needs with personalized vitamins. Our advanced genetic testing and algorithm create a tailored blend of vitamins and minerals based on your DNA, age, gender, and diet. Take control of your well-being and embark on a transformative journey towards a healthier life."
+              }
+            />
+            <button className="btn bg-[#FF7F3F] text-white mt-[20px] border-[#FF7F3F]  active:bg-[#993636] active:border-[#993636]">
+              Learn More
+            </button>
+          </div>
         </div>
         <div className="sm:hidden visible">
           <Image src={s2} />
         </div>
       </div>
-      
 
       <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around sm:mb-0  mb-[30px]">
-      <div className="sm:hidden "> 
+        <div className="sm:hidden ">
           <Image src={s3} />
         </div>
         <div className="sm:w-[40%] sm:p-[0] p-[20px] h-[600px] flex justify-center items-center">
-          <div className="sm:ml[0px] ml-[25px]">
+          <div className="sm:ml[0px] ">
             <h1 className="heading"> Your Success matters to us </h1>
             <p className="mb-[20px] mt-[15px] sm:w-[646px] w-[326px] ">
               A decade ago, our team of researchers made a groundbreaking
@@ -133,13 +129,12 @@ const StepProgram = () => {
             <p>Phd</p>
           </div>
         </div>
-        <div className="sm:visible setimage"> 
+        <div className="sm:visible setimage">
           <Image src={s3} />
         </div>
-       
       </div>
 
-      <div className="w-full sm:h-[153px] h-[90px] bg-[#146356] flex sm:flex-row flex-col items-center sm:justify-between justify-around sm:px-[90px] px-[0]">
+      <div className="w-full sm:h-[153px] h-[100px] bg-[#146356] flex sm:flex-row flex-col items-center sm:justify-between justify-around sm:px-[90px] px-[0]">
         <h1 className="text-white sm:text-[24px] text-[18px] font-[500] ">
           Take the first step to a healthier you.
         </h1>
@@ -149,15 +144,13 @@ const StepProgram = () => {
         </button>
       </div>
       <style jsx>{`
-          .setimage {
-            @media (max-width: 768px) {
-              display: none;
-            }
-            
+        .setimage {
+          @media (max-width: 768px) {
+            display: none;
           }
-        `}</style>
+        }
+      `}</style>
     </>
-    
   );
 };
 export default StepProgram;

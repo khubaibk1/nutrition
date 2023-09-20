@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="  w-[135px] h-[112px]  ">
                 <h2 className="smallHeading mb-[10px]">Follow Us</h2>
                 <div>
-                  <ul className="grid sm:grid-cols-4  grid-cols-2">
+                  <ul className="grid sm:grid-cols-4 grap-gap-2 gap-x-3 grid-cols-2">
                     <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -3,7 +3,7 @@ const Sponser = () => {
     <>
       <div className="w-full sm:h-[120px] h-[70px] flex justify-center pt-[14px]">
         <div className="flex flex-row sm:w-[80%] w-[100%] sm:h-[90px] h-[45px] items-center justify-around ">
-          <div >
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="172"
@@ -162,7 +162,7 @@ const Sponser = () => {
               />
             </svg>
             <style>
-        {`
+              {`
           @media (max-width: 768px) {
             
             svg {
@@ -170,7 +170,7 @@ const Sponser = () => {
             }
           }
         `}
-      </style>
+            </style>
           </div>
         </div>
       </div>

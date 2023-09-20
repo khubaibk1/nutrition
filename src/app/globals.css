@@ -8,10 +8,10 @@
 
 @layer base {
   .btn {
-    @apply sm:w-[128px] sm:h-[50px] rounded-[25px] border-2 border-solid border-white w-[74px] text-[8px] sm:text-[16px] h-[31px];
+    @apply sm:w-[128px] sm:h-[50px] rounded-[25px] border-2 border-solid border-white w-[94px] text-[12px] sm:text-[16px] h-[36px];
   }
   .stepbtn {
-    @apply w-[87px] h-[35px] rounded-[25px] text-[white] bg-[#FF7F3F];
+    @apply sm:w-[87px] sm:h-[35px] sm:text-[16px] text-[13px] w-[71px] h-[31px] rounded-[25px] text-[white] bg-[#FF7F3F];
   }
 
   .heading {
