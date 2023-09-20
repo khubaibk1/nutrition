@@ -104,8 +104,8 @@ const StepProgram = () => {
         </div>
       </div>
 
-      <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around sm:mb-0  mb-[30px]">
-        <div className="sm:hidden ">
+      <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around sm:mb-0 sm:rounded-none rounded-t-lg  mb-[30px]">
+        <div className="sm:hidden">
           <Image src={s3} />
         </div>
         <div className="sm:w-[40%] sm:p-[0] p-[20px] h-[600px] flex justify-center items-center">

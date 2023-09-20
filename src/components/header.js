@@ -34,8 +34,8 @@ const Header = () => {
   }, [isMobileNavOpen]);
 
   return (
-    <nav className="w-full h-[130px] ">
-      <div className="w-full h-[50px] flex flex-row justify-center items-center p-0 m-0">
+    <nav className="w-full sm:h-[128px] h-[103.6px] ">
+      <div className="w-full sm:h-[50px] h-[26px] flex flex-row justify-center items-center p-0 m-0">
         <div className="w-[95%] h-[50px]  text-[8px] font-[500] flex justify-center py-[17px] sm  sm:text-[16px] ">
           <p>
             Join the waitlist 🚨 Personalized Protein & Fiber Powder Supplements
