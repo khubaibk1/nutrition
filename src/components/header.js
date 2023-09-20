@@ -85,7 +85,7 @@ const Header = () => {
       {isMobileNavOpen && (
         <div
           ref={menuRef}
-          className="sm:hidden absolute w-[100%]  h-[244px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0"
+          className="sm:hidden absolute w-[100%] transform translate-y-[-1px] h-[244px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0"
         >
           <div className="sm:hidden h-[210px] ">
             <ul className=" text-white p-4 text-[12px]  flex flex-col  items-center text-left justify-center">
