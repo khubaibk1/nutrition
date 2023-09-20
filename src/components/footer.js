@@ -1,22 +1,22 @@
 const Footer = () => {
   return (
     <>
-      <div className="w-full   bg-[url('/images/footer-leaves-right.png')] bg-no-repeat h-[253px] bg-right-bottom sm:p-[0] p-[10px] overflow-hidden">
-        <div className="bg-[url('/images/footer-leaves.png')] bg-no-repeat h-[253px] bg-left-bottom flex justify-center">
-          <div className="w-[90%] h-[253px] flex flex-col justify-around ">
+      <div className="w-full   bg-[url('/images/footer-leaves-right.png')] bg-no-repeat sm:h-[253px] h-[200px] bg-right-bottom overflow-hidden">
+        <div className="w-full bg-[url('/images/footer-leaves.png')] bg-no-repeat sm:h-[253px] h-[200px] bg-left-bottom flex justify-center">
+          <div className="sm:w-[90%] w-[98%] sm:h-[253px] h-[200px] flex flex-col justify-around sm:p-[0] p-[8px]">
             <div className="flex flex-row items-center justify-around ">
               <div className="w-[377px] h-[122px]">
-                <div className="sm:text-[36px] text-[20px] font-[700] text-[#FF7F3F] pb-0">
+                <div className="sm:text-[36px] text-[16px] font-[700] text-[#FF7F3F] pb-0 sm:mb-0 mb-[6px]">
                   Logo
                 </div>
-                <p className="sm:text-[16px] text-[9px] sm:w-[280px] w-[70px]">
+                <p className="sm:text-[16px] text-[8px] sm:w-[280px] w-[90px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
               <div className="w-[380px] h-[112px]">
                 <h2 className="smallHeading mb-[10px]">Company</h2>
-                <p className="sm:text-[16px] text-[9px] sm:w-[280px] w-[90px]">
+                <p className="sm:text-[16px] text-[8px] sm:w-[280px] w-[80px]">
                   Essential Nutrition Report Personalized Vitamins Dietitian
                   Coaching
                 </p>
@@ -24,18 +24,18 @@ const Footer = () => {
 
               <div className="w-[380px] h-[112px]">
                 <h2 className="smallHeading mb-[10px] ">Legal</h2>
-                <ul className="sm:text-[16px] text-[9px] sm:w-[280px] w-[80px]">
+                <ul className="sm:text-[16px] text-[8px] sm:w-[280px] w-[70px]">
                   <li>Return Policy</li>
                   <li>Privacy Policy</li>
                   <li>Terms and Servics</li>
                 </ul>
               </div>
 
-              <div className="  w-[135px] h-[112px]  ">
+              <div className="  sm:w-[135px] h-[112px]  w-[80px] ">
                 <h2 className="smallHeading mb-[10px]">Follow Us</h2>
                 <div>
-                  <ul className="grid sm:grid-cols-4 grap-gap-2 gap-x-3 grid-cols-2">
-                    <li>
+                  <ul className="flex flex-row justify-between">
+                    <li className="mr-[2px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
@@ -57,7 +57,7 @@ const Footer = () => {
                         />
                       </svg>
                     </li>
-                    <li>
+                    <li className="mr-[2px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
@@ -79,7 +79,7 @@ const Footer = () => {
                         />
                       </svg>
                     </li>
-                    <li>
+                    <li className="mr-[2px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"
@@ -142,7 +142,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center font-[500] sm:text-[18px] text-[12px]">
+            <div className="text-center font-[500] sm:text-[18px] text-[12px] sm:mb-0 mb-[10px]">
               Design & Developed by ZySoftec
             </div>
           </div>
