@@ -8,7 +8,7 @@ const Section = () => {
       <div className=" sm:h-[644px] sm:w-full bg-contain w-[521px]  h-[532px] absolute inset-0 bg-right  bg-[url('/images/green-leaves-organic-png-file-hd.png')] bg-no-repeat  "></div>
 
       <div className="flex sm:flex-row  flex-col ">
-        <div className="text-black sm:pl-[100px] pl-[70px] sm:pt-[175px] pt-[70px] z-10">
+        <div className="text-black sm:pl-[100px] pl-[58px] sm:pt-[175px] pt-[65px] z-10">
           <h1 className="sm:text-[64px] text-[28px] font-[700] text-[#146356] leading-[33px]    sm:mb-[45px] mb-[10px]">
             Unlock Your Health
           </h1>

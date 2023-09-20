@@ -104,7 +104,7 @@ const StepProgram = () => {
         </div>
       </div>
 
-      <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around sm:mb-0 sm:rounded-none rounded-t-lg  mb-[30px]">
+      <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around  sm:rounded-none rounded-t-lg  ">
         <div className="sm:hidden">
           <Image src={s3} />
         </div>
@@ -125,7 +125,7 @@ const StepProgram = () => {
               Let's move mountains—for ourselves, our loved ones, and our
               community. We can't wait to hear about your successes.
             </span>
-            <h2 className="smallHeading mt-[20px] text-[16px] ">Dr. James Williams</h2>
+            <h2 className="smallHeading mt-[20px] text-[16px] font-[650] ">Dr. James Williams</h2>
             <p>Phd</p>
           </div>
         </div>
