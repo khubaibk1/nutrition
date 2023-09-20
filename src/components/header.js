@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <nav className="w-full sm:h-[128px] h-[103.6px] ">
       <div className="w-full sm:h-[50px] h-[26px] flex flex-row justify-center items-center p-0 m-0">
-        <div className="w-[95%] h-[50px]  text-[8px] font-[500] flex justify-center py-[17px] sm  sm:text-[16px] ">
+        <div className="w-[95%] h-[50px]  text-[8px] font-[500] flex justify-center sm:py-[17px] py-[18px] sm:text-[16px] ">
           <p>
             Join the waitlist 🚨 Personalized Protein & Fiber Powder Supplements
             coming soon →
@@ -85,7 +85,7 @@ const Header = () => {
       {isMobileNavOpen && (
         <div
           ref={menuRef}
-          className="sm:hidden relative  h-[244px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0"
+          className="sm:hidden absolute w-[100%]  h-[244px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0"
         >
           <div className="sm:hidden h-[210px] ">
             <ul className=" text-white p-4 text-[12px]  flex flex-col  items-center text-left justify-center">
