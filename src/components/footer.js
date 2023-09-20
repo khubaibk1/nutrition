@@ -3,20 +3,20 @@ const Footer = () => {
     <>
       <div className="w-full   bg-[url('/images/footer-leaves-right.png')] bg-no-repeat sm:h-[253px] h-[200px] bg-right-bottom overflow-hidden">
         <div className="w-full bg-[url('/images/footer-leaves.png')] bg-no-repeat sm:h-[253px] h-[200px] bg-left-bottom flex justify-center">
-          <div className="sm:w-[90%] w-[98%] sm:h-[253px] h-[200px] flex flex-col justify-around sm:p-[0] p-[8px]">
+          <div className="sm:w-[90%] w-[98%] sm:h-[253px] h-[200px] flex flex-col justify-around sm:p-[0] md:px-[50px] p-[8px]">
             <div className="flex flex-row items-center justify-around ">
               <div className="w-[377px] h-[122px]">
-                <div className="sm:text-[36px] text-[16px] font-[700] text-[#FF7F3F] pb-0 sm:mb-0 mb-[6px]">
+                <div className="sm:text-[36px] md:text-[24px] text-[16px] font-[700] text-[#FF7F3F] pb-0 sm:mb-0 mb-[6px]">
                   Logo
                 </div>
-                <p className="sm:text-[16px] text-[8px] sm:w-[280px] w-[90px]">
+                <p className="sm:text-[16px] md:text-[9px] text-[8px] sm:w-[280px] w-[90px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
               <div className="w-[380px] h-[112px]">
                 <h2 className="smallHeading mb-[10px]">Company</h2>
-                <p className="sm:text-[16px] text-[8px] sm:w-[280px] w-[80px]">
+                <p className="sm:text-[16px] md:text-[9px] text-[8px] sm:w-[280px] w-[80px]">
                   Essential Nutrition Report Personalized Vitamins Dietitian
                   Coaching
                 </p>
@@ -24,7 +24,7 @@ const Footer = () => {
 
               <div className="w-[380px] h-[112px]">
                 <h2 className="smallHeading mb-[10px] ">Legal</h2>
-                <ul className="sm:text-[16px] text-[8px] sm:w-[280px] w-[70px]">
+                <ul className="sm:text-[16px] md:text-[9px] text-[8px] sm:w-[280px] w-[70px]">
                   <li>Return Policy</li>
                   <li>Privacy Policy</li>
                   <li>Terms and Servics</li>
@@ -142,7 +142,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center font-[500] sm:text-[18px] text-[12px] sm:mb-0 mb-[10px]">
+            <div className="text-center font-[500] sm:text-[18px] text-[12px] sm:mb-0 mb-[10px] md:mb-[0px]">
               Design & Developed by ZySoftec
             </div>
           </div>

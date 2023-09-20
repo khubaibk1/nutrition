@@ -26,8 +26,11 @@ const Steps = ({ stepNo, heading, detail }) => {
           .step-container {
             width: 100%;
             max-width: 326px;
-            @media (min-width: 768px) {
+            @media (min-width: 750px) {
               max-width: 274px;
+            }
+            @media (min-width: 510px) {
+              max-width: 490px;
             }
             @media (min-width: 1024px) {
               max-width: 674px;

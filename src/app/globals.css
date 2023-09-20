@@ -15,10 +15,10 @@
   }
 
   .heading {
-    @apply text-[#146356] sm:text-[40px] sm:font-[700] text-[22px] font-[750];
+    @apply text-[#146356] sm:text-[40px] sm:font-[700] text-[22px] font-[750] md:text-[30px];
   }
   .smallHeading {
-    @apply text-[#146356] sm:text-[18px] font-[630] text-[10px];
+    @apply text-[#146356] sm:text-[18px] font-[630] text-[10px] md:text-[16px];
   }
 }
 

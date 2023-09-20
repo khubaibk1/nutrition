@@ -20,8 +20,8 @@ module.exports = {
       },
     },
     screens:{
-      'sm':'640px',
-      'md':'786px',
+      'sm':'750px',
+      'md':'510px',
       'lg':'1024px',
       'xl':'1280px',
 

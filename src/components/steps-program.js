@@ -25,11 +25,11 @@ const StepProgram = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center text-center mt-[56px] mb-[30px]">
+      <div className="w-[100%] flex justify-center items-center text-center mt-[56px] mb-[30px]">
         <div>
           <h1 className="text-[40px] font-[700] text-[#FF7F3F]">New</h1>
           <h1 className="heading">Personalized Nutrition Program</h1>
-          <p className="sm:w-[776px] w-[329px] mt-[8px]">
+          <p className="sm:w-[776px] md:w-[500px]  w-[329px] mt-[8px]">
             Our 3-step program jumpstarts your health journey. With your
             Essential Nutrition Report, we provide a tailored daily nutrition
             program based on your genetic needs. Get personalized vitamins and
@@ -57,14 +57,14 @@ const StepProgram = () => {
             </button>
           </div>
         </div>
-        <div className="sm:hidden visible">
+        <div className="sm:hidden visible flex justify-center items-center">
           <Image src={s1} />
         </div>
       </div>
 
       <div className="w-full bg-[#D5EDF7] ">
         <div className="w-full bg-[url('/images/Rectangle8.png')] bg-no-repeat bg-contain sm:bg-right bg-bottom  ">
-          <div className=" sm:h-[545px] h-[520px] sm:justify-normal justify-center  flex sm:items-center sm:pl-[100px]">
+          <div className=" sm:h-[545px] md:h-[570px] h-[520px] sm:justify-normal justify-center  flex sm:items-center sm:pl-[100px]">
             <div>
               <Steps
                 stepNo={"Step 2"}
@@ -99,37 +99,41 @@ const StepProgram = () => {
             </button>
           </div>
         </div>
-        <div className="sm:hidden visible">
+        <div className="sm:hidden visible flex justify-center items-center">
           <Image src={s2} />
         </div>
       </div>
 
-      <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col  items-center justify-around  sm:rounded-none rounded-t-lg  ">
+      <div className="sm:h-[617px] w-full h-[717] bg-[#CFEAF5] flex sm:flex-row flex-col   items-center justify-around  sm:rounded-none rounded-t-lg  ">
         <div className="sm:hidden">
           <Image src={s3} />
         </div>
         <div className="sm:w-[40%] sm:p-[0] p-[20px] h-[600px] flex justify-center items-center">
-          <div className="sm:ml[0px] ">
+          <div className="sm:ml[0px] md:ml-[20px] flex flex-col justify-center  ">
             <h1 className="heading"> Your Success matters to us </h1>
-            <p className="mb-[20px] mt-[15px] sm:w-[646px] w-[326px] ">
-              A decade ago, our team of researchers made a groundbreaking
-              genetic discovery that fueled my passion to help others. That's
-              when GenoPalate was born. With experts in genetics, medicine, and
-              nutrition, we're revolutionizing lifelong health through
-              personalized eating. It's been an incredible journey, witnessing
-              our customers find happiness and wellness. Now, with 84% of
-              Americans facing metabolic health issues, we're committed to
-              reshaping our future together.
-            </p>
-            <span>
-              Let's move mountains—for ourselves, our loved ones, and our
-              community. We can't wait to hear about your successes.
-            </span>
-            <h2 className="smallHeading mt-[20px] text-[16px] font-[650] ">Dr. James Williams</h2>
+            <div className="flex flex-col justify-center items-center">
+              <p className=" mt-[15px] sm:w-[646px] md:w-[500px] w-[326px] ">
+                A decade ago, our team of researchers made a groundbreaking
+                genetic discovery that fueled my passion to help others. That's
+                when GenoPalate was born. With experts in genetics, medicine,
+                and nutrition, we're revolutionizing lifelong health through
+                personalized eating. It's been an incredible journey, witnessing
+                our customers find happiness and wellness. Now, with 84% of
+                Americans facing metabolic health issues, we're committed to
+                reshaping our future together.
+              </p>
+              <span className=" mt-[15px] sm:w-[646px] md:w-[500px] w-[326px] ">
+                Let's move mountains—for ourselves, our loved ones, and our
+                community. We can't wait to hear about your successes.
+              </span>
+            </div>
+            <h2 className="smallHeading mt-[20px] text-[16px] font-[650] ">
+              Dr. James Williams
+            </h2>
             <p>Phd</p>
           </div>
         </div>
-        <div className="sm:visible setimage">
+        <div className="sm:visible setimage ">
           <Image src={s3} />
         </div>
       </div>
