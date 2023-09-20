@@ -125,7 +125,7 @@ const StepProgram = () => {
               Let's move mountains—for ourselves, our loved ones, and our
               community. We can't wait to hear about your successes.
             </span>
-            <h2 className="smallHeading mt-[20px] text-[14px] ">Dr. James Williams</h2>
+            <h2 className="smallHeading mt-[20px] text-[16px] ">Dr. James Williams</h2>
             <p>Phd</p>
           </div>
         </div>

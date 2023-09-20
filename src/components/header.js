@@ -44,7 +44,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="sm:h-[78px] h-[80.5px] flex flex-row items-center sm:justify-around justify-between bg-[#146356] text-white ">
+      <div className="h-[78px]  flex flex-row items-center sm:justify-around justify-between bg-[#146356] text-white ">
         <div className="text-[30px] sm:text-[40px] font-[800] sm:ml-[0] ml-[15px] ">
           Logo
         </div>
@@ -85,7 +85,7 @@ const Header = () => {
       {isMobileNavOpen && (
         <div
           ref={menuRef}
-          className="sm:hidden relative  h-[240px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0"
+          className="sm:hidden relative  h-[244px] z-40 bg-[#146356]  flex flex-col justify-center items-center m-0"
         >
           <div className="sm:hidden h-[210px] ">
             <ul className=" text-white p-4 text-[12px]  flex flex-col  items-center text-left justify-center">
