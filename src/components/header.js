@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <nav className="w-full h-[130px] ">
       <div className="w-full h-[50px] flex flex-row justify-center items-center p-0 m-0">
-        <div className="w-[95%] h-[50px]  text-[8px] font-[500] flex justify-center py-[16px] sm  sm:text-[16px] ">
+        <div className="w-[95%] h-[50px]  text-[8px] font-[500] flex justify-center py-[17px] sm  sm:text-[16px] ">
           <p>
             Join the waitlist 🚨 Personalized Protein & Fiber Powder Supplements
             coming soon →
@@ -44,7 +44,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="h-[78px] flex flex-row items-center sm:justify-around justify-between bg-[#146356] text-white ">
+      <div className="sm:h-[78px] h-[80.5px] flex flex-row items-center sm:justify-around justify-between bg-[#146356] text-white ">
         <div className="text-[30px] sm:text-[40px] font-[800] sm:ml-[0] ml-[15px] ">
           Logo
         </div>
