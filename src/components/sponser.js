@@ -188,7 +188,7 @@ const Sponser = () => {
               font-weight: 900;
             }
           }
-          @media (min-width: 768px) {
+          @media (min-width: 968px) {
             
             .sponsers {
               width: 182px;
@@ -197,6 +197,8 @@ const Sponser = () => {
               width: 222px;
               font-weight: 900;
             }
+          }
+          
           }
           
           }

@@ -40,7 +40,7 @@ const StepProgram = () => {
       </div>
 
       <div className="flex sm:flex-row flex-col w-[100%] sm:items-center sm:justify-center my-[80px]">
-        <div className="sm:visible setimage sm:mr-[33px] mr-[0]">
+        <div className="sm:visible  setimage sm:mr-[33px] mr-[0]">
           <Image src={s1} />
         </div>
         <div className="flex justify-center items-center sm:mb-0 mb-[40px]">
@@ -149,7 +149,7 @@ const StepProgram = () => {
       </div>
       <style jsx>{`
         .setimage {
-          @media (max-width: 768px) {
+          @media (max-width: 1100px) {
             display: none;
           }
         }
